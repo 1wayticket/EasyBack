@@ -1,4 +1,4 @@
-package com.example.easybacklib;
+package com.example.easyback;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

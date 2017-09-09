@@ -1,4 +1,4 @@
-package com.example.easybacklib;
+package com.example.easyback;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

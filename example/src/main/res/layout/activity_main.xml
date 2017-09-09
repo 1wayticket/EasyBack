@@ -7,7 +7,7 @@
     android:background="#dedede"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.easybacklib.MainActivity">
+    tools:context="com.example.easyback.MainActivity">
 
     <ImageView
         android:id="@+id/iv_banner"
@@ -18,8 +18,12 @@
 
     <CheckBox
         android:id="@+id/cb_switch"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="是否设置上面图片为不可滑动"
+        android:checked="false"
+        android:paddingTop="8dp"
         android:gravity="center_horizontal" />
 
     <TextView

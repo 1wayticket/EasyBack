@@ -1,4 +1,4 @@
-package com.example.easybacklib;
+package com.example.easyback;
 
 import org.junit.Test;
 

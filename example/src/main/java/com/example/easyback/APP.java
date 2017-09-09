@@ -1,4 +1,4 @@
-package com.example.easybacklib;
+package com.example.easyback;
 
 import android.app.Application;
 
@@ -10,4 +10,9 @@ import android.app.Application;
  */
 
 public class APP extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+    }
 }
