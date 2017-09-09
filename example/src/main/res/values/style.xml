@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#333</item>
+        <item name="colorPrimaryDark">#333</item>
+        <item name="colorAccent">#333</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/activity_anim_style</item>
+    </style>
+
+    <style name="activity_anim_style">
+        <item name="android:windowEnterAnimation">@anim/activity_theme_in</item>
+        <item name="android:windowExitAnimation">@anim/activity_theme_out</item>
+    </style>
+</resources>
